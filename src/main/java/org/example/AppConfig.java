@@ -22,6 +22,7 @@ public final class AppConfig {
         String loadedFrom = null;
 
 
+
         if (key == null || key.isBlank()) {
             // גם ~/.homeworkgpt וגם ~/.homeWorkGpt
             Path p1 = Paths.get(System.getProperty("user.home"), ".homeworkgpt", "secrets.properties");
