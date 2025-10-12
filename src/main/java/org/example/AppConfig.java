@@ -21,6 +21,7 @@ public final class AppConfig {
         String key = System.getenv("OPENAI_API_KEY"); // קודם מה-ENV
         String loadedFrom = null;
 
+
         if (key == null || key.isBlank()) {
             // גם ~/.homeworkgpt וגם ~/.homeWorkGpt
             Path p1 = Paths.get(System.getProperty("user.home"), ".homeworkgpt", "secrets.properties");
