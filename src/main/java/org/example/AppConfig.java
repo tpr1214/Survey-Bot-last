@@ -11,7 +11,7 @@ public final class AppConfig {
     public static final String BOT_USERNAME = "HomeWork33Bot";
     public static final String BOT_TOKEN    = "8141374623:AAGr9b8FqzCr2n36qaxEZbx7pgh-XylTIyc";
 
-    // ---- OpenAI ----
+    // ---- OpenAI ---------
     public static final String OPENAI_API_BASE = "https://api.openai.com/v1/chat/completions";
     public static final String OPENAI_MODEL    = "gpt-4o-mini";
     public static final String OPENAI_API_KEY; // נטען בסטטיק בלוק
