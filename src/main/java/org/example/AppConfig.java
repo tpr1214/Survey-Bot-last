@@ -6,7 +6,7 @@ import java.nio.file.*;
 import java.util.Properties;
 public final class AppConfig {
     private AppConfig() {}
- 
+
     // ---- Telegram ----
     public static final String BOT_USERNAME = "HomeWork33Bot";
     public static final String BOT_TOKEN    = "8141374623:AAGr9b8FqzCr2n36qaxEZbx7pgh-XylTIyc";
