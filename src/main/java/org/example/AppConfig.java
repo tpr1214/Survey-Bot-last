@@ -4,7 +4,6 @@ package org.example;
 import java.io.*;
 import java.nio.file.*;
 import java.util.Properties;
-
 public final class AppConfig {
     private AppConfig() {}
 
